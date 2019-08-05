@@ -18,6 +18,9 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "@page/*": [
+        "src/assets/style/*"
       ]
     },
     "lib": [
