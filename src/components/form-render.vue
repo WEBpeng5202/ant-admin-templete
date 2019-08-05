@@ -162,11 +162,9 @@
           if (!err) {
             for (let i in values){
               if(typeof values[i] === 'boolean'){
-                console.log(values[i]);
                 values[i] = values[i] === true ? 1 : 0;
               }
             }
-            console.log(values);
             let dataObj = {};
             dataObj.data = {...values};
             dataObj.$router = this.$router;
